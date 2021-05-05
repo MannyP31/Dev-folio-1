@@ -1,0 +1,44 @@
+/*import font from fonts.css*/
+@import url(./fonts.css);
+@import url(./variables.css);
+
+.header .main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/*start navigation*/
+
+.header .main-menu .navbar .navbar-brand {
+  padding: 0.2rem 0.5 rem;
+}
+
+.header .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header .main-menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  line-height: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*end navigation*/
