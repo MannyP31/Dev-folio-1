@@ -1,11 +1,12 @@
 /*import font from fonts.css*/
 @import url(./fonts.css);
 @import url(./variables.css);
+@import url(./global.css);
 
 .header .main-menu {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 /*start navigation*/
@@ -15,7 +16,7 @@
 }
 
 .header .main-menu .navbar {
-  padding: 1rem 20rem;
+  padding: 1rem 10rem;
 }
 
 .header .main-menu .nav-item .nav-link {
@@ -42,3 +43,60 @@
 }
 
 /*end navigation*/
+
+/*banner area*/
+
+.site-main .site-banner {
+  display: flex;
+  position: relative;
+  padding: 5% 10%;
+  margin: 0;
+}
+
+.site-main .site-banner .row {
+  display: flex;
+}
+
+.site-main .site-banner .row .site-title {
+  padding: 15% 5%;
+  margin: 0;
+}
+
+.site-main .site-banner .row .banner-img {
+  padding: 0;
+  margin: 0;
+}
+
+.site-main .site-banner .site-title h3 {
+  padding: 0;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 1.5px;
+  width: 30vw;
+  background: var(--gradient-color);
+  display: inline-block;
+  margin-left: 2%;
+  transform: translateY(-9px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-img > img {
+  /*padding: 7rem 0;*/
+  width: 30rem;
+  height: 30rem;
+}
+
+.button {
+  margin: 2rem;
+}
+/*end banner area*/
