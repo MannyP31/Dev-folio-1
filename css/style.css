@@ -49,7 +49,7 @@
 .site-main .site-banner {
   display: flex;
   position: relative;
-  padding: 5% 10%;
+  padding: 2rem 0;
   margin: 0;
 }
 
@@ -100,3 +100,23 @@
   margin: 2rem;
 }
 /*end banner area*/
+
+/*start about area*/
+
+.site-main .about-area {
+  padding: 2rem 1rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 20px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 1rem 0;
+}
+
+/*end about area*/

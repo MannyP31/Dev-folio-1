@@ -46,11 +46,18 @@
   background-clip: padding-box;
   transition: background 0.6s ease;
   border-radius: 10px;
+  box-shadow: var(--shadow-color);
 }
 
 .button.secondary-button:hover {
   background: var(--gradient-color);
+  background-clip: padding-box;
   box-shadow: var(--shadow-color);
   color: whitesmoke;
   border-radius: 10px;
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--roboto);
 }
